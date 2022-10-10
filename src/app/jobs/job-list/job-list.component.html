@@ -1,0 +1,25 @@
+
+<div class="row">
+  <div class="col-xs-12">
+    <button class="button-17" role="button" (click)="onNewJob()">New Job</button>   <!--button to add a new job-->
+  </div>
+</div>
+<hr>
+<input type="text" class="form-control search-field" placeholder="Search by title or skills" [(ngModel)]="searchText">
+<hr>
+
+<div class="row">
+  <div class="scroll">
+  
+    
+      <!--here i'm cicling my job-item component and adding a pipe called searchFilter to make the search bar work'-->
+
+      <app-job-item *ngFor="let jobEl of (jobs | searchFilter : searchText) let i=index"
+                    [job]="jobEl"
+                    [index]="i">
+      </app-job-item>
+
+    </div>
+  </div>
+
+

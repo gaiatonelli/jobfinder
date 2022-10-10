@@ -1,0 +1,30 @@
+
+
+<!--html card on the left-->
+
+
+<div style="cursor: pointer;"
+     [routerLink]="[index]"
+     routerLinkActive="active"
+     class="list-group-item clearfix">
+  <ngx-skeleton-loader *ngIf="!loaded" appearance="circle"></ngx-skeleton-loader>
+    <div class="cards" *ngIf="loaded">
+      <div class="card">
+        <div class="card__icon">
+          <span class="pull-right">
+            <img [src]="job.imagePath"
+                 alt=""
+                 class="img-responsive"
+                 style="max-height: 100px;">
+            <i class="fas fa-bolt"></i>
+          </span>
+        </div>
+        <p class="card__exit"><i class="fas fa-times"></i></p>
+        <h2 class="card__title">{{job.name}}</h2>
+        <i style="margin-left: 20px; margin-right: 0px;">{{job.description}}</i>
+      </div>
+    </div>
+
+
+</div>
+ 

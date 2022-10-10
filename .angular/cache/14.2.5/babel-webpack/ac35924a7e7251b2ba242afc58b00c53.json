@@ -1,0 +1,1 @@
+{"ast":null,"code":"/*sets params of the job */\nexport class Job {\n  constructor(name, desc, imagePath, company, skills) {\n    this.name = name;\n    this.description = desc;\n    this.imagePath = imagePath;\n    this.company = company;\n    this.skills = skills;\n  }\n\n}","map":null,"metadata":{},"sourceType":"module"}

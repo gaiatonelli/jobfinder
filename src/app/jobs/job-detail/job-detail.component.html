@@ -1,0 +1,22 @@
+
+<!--this is the card that opens when you click on a job-->
+
+
+<div class="card" >
+  <p style="margin-left:160px">
+    <img [src]="job.imagePath"
+         alt="{{ job.name }}"
+         class="img-responsive"
+         style="max-height: 200px; ">
+    <!--<div class="card__title">-->
+      <h2>{{job.name}}</h2>
+  <div style="margin-left: 20px; margin-right: 0px;">
+    {{job.description}} 
+    <hr> Company Name : {{job.company}}
+    <hr> Required skills : {{job.skills}}
+  </div>
+  <i style="margin-left: 20px; margin-right: 0px; text-align:end" href="#">Apply Now </i>
+  <p class="card__exit"><i class="fas fa-times"></i></p>
+</div>
+
+

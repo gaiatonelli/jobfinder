@@ -1,0 +1,40 @@
+[
+  {
+    "name": "Software Developer",
+    "description": "back-end, this job requires at least two years of experience with sql, c and java",
+    "imagePath": "https://www.freepnglogos.com/uploads/company-logo-png/company-logo-transparent-png-19.png",
+    "company": "alas",
+    "skills": "sql, c, java"
+  },
+
+  {
+    "name": "Software Developer",
+    "description": "no experience needed, front-end ",
+    "imagePath": "https://www.freepnglogos.com/uploads/company-logo-png/company-logo-telestream-press-kit-12.png",
+    "company": "elias",
+    "skills": "basic knowledge of html / css / javascript"
+  },
+
+  {
+    "name": "Manager",
+    "description": "manage a team of 25 people in the company",
+    "imagePath": "https://www.freepnglogos.com/uploads/company-logo-png/file-mobile-apps-development-company-logo-25.png",
+    "company": "eraser",
+    "skills": "10 years of experience"
+  },
+  {
+    "name": "Vice Manager",
+    "description": "assist our main manager",
+    "imagePath": "https://www.freepnglogos.com/uploads/company-logo-png/file-mobile-apps-development-company-logo-25.png",
+    "company": "eraser",
+    "skills": "3 years of experience"
+  },
+  {
+    "name": "Manager",
+    "description": "manage a team of 25 people in the company",
+    "imagePath": "https://www.freepnglogos.com/uploads/company-logo-png/file-mobile-apps-development-company-logo-25.png",
+    "company": "eraser",
+    "skills": "10 years of experience"
+  }
+
+  ]

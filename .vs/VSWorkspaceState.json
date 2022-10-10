@@ -1,0 +1,15 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\src",
+    "\\src\\app",
+    "\\src\\app\\jobs",
+    "\\src\\app\\jobs\\job-detail",
+    "\\src\\app\\jobs\\job-edit",
+    "\\src\\app\\jobs\\job-list",
+    "\\src\\app\\jobs\\job-list\\job-item",
+    "\\src\\app\\shared"
+  ],
+  "SelectedNode": "\\src\\app\\shared\\data-storage.service.ts",
+  "PreviewInSolutionExplorer": false
+}
