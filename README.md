@@ -28,7 +28,7 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 "# jobfinder" 
 
 
-DOCUMENTAZIONE
+## DOCUMENTAZIONE
 Divisione in componenti del progetto
 -	Header  contiene tutto il codice relativo al menù in alto
 -	Jobs contiene il codice di quello che è il corpo della pagina relativa ai lavori
